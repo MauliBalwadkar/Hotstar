@@ -1,0 +1,489 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="0" failed="0" skipped="8">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-09-27T17:30:49 IST" name="Suite" finished-at="2023-09-27T17:30:49 IST" duration-ms="376">
+    <groups>
+    </groups>
+    <test started-at="2023-09-27T17:30:49 IST" name="ChromeTest" finished-at="2023-09-27T17:30:49 IST" duration-ms="168">
+      <class name="testNGTestPack.VerifySportsFunctionality">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:testNGTestPack.VerifySportsFunctionality@55183b20]" started-at="2023-09-27T17:30:49 IST" name="launchBrowser" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1695816049422" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="createPOMPObject()[pri:0, instance:testNGTestPack.VerifySportsFunctionality@55183b20]" started-at="2023-09-27T17:30:49 IST" name="createPOMPObject" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1695816049469" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPOMPObject -->
+        <test-method is-config="true" signature="openSportsSection()[pri:0, instance:testNGTestPack.VerifySportsFunctionality@55183b20]" started-at="2023-09-27T17:30:49 IST" name="openSportsSection" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1695816049494" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openSportsSection -->
+        <test-method signature="verifyCricketFunctionality()[pri:1, instance:testNGTestPack.VerifySportsFunctionality@55183b20]" started-at="2023-09-27T17:30:49 IST" name="verifyCricketFunctionality" finished-at="2023-09-27T17:30:49 IST" duration-ms="0" status="SKIP">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Can inject only one of <ITestContext, XmlTest> into a @BeforeTest annotated launchBrowser.
+For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Can inject only one of <ITestContext, XmlTest> into a @BeforeTest annotated launchBrowser.
+For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection
+at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:439)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:353)
+at org.testng.internal.Parameters.createParameters(Parameters.java:708)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCricketFunctionality -->
+        <test-method is-config="true" signature="openSportsSection()[pri:0, instance:testNGTestPack.VerifySportsFunctionality@55183b20]" started-at="2023-09-27T17:30:49 IST" name="openSportsSection" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1695816049514" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openSportsSection -->
+        <test-method signature="verifyFootBallFunctionality()[pri:2, instance:testNGTestPack.VerifySportsFunctionality@55183b20]" started-at="2023-09-27T17:30:49 IST" name="verifyFootBallFunctionality" finished-at="2023-09-27T17:30:49 IST" duration-ms="0" status="SKIP">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Can inject only one of <ITestContext, XmlTest> into a @BeforeTest annotated launchBrowser.
+For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Can inject only one of <ITestContext, XmlTest> into a @BeforeTest annotated launchBrowser.
+For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection
+at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:439)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:353)
+at org.testng.internal.Parameters.createParameters(Parameters.java:708)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFootBallFunctionality -->
+        <test-method is-config="true" signature="openSportsSection()[pri:0, instance:testNGTestPack.VerifySportsFunctionality@55183b20]" started-at="2023-09-27T17:30:49 IST" name="openSportsSection" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1695816049522" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openSportsSection -->
+        <test-method signature="verifyAsiaCupFunctonality()[pri:3, instance:testNGTestPack.VerifySportsFunctionality@55183b20]" started-at="2023-09-27T17:30:49 IST" name="verifyAsiaCupFunctonality" finished-at="2023-09-27T17:30:49 IST" duration-ms="0" status="SKIP">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Can inject only one of <ITestContext, XmlTest> into a @BeforeTest annotated launchBrowser.
+For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Can inject only one of <ITestContext, XmlTest> into a @BeforeTest annotated launchBrowser.
+For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection
+at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:439)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:353)
+at org.testng.internal.Parameters.createParameters(Parameters.java:708)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAsiaCupFunctonality -->
+        <test-method is-config="true" signature="clearObject()[pri:0, instance:testNGTestPack.VerifySportsFunctionality@55183b20]" started-at="2023-09-27T17:30:49 IST" name="clearObject" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1695816049530" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearObject -->
+        <test-method is-config="true" signature="closeTheBrowser()[pri:0, instance:testNGTestPack.VerifySportsFunctionality@55183b20]" started-at="2023-09-27T17:30:49 IST" name="closeTheBrowser" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1695816049563" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTheBrowser -->
+      </class> <!-- testNGTestPack.VerifySportsFunctionality -->
+      <class name="testNGTestPack.VerifyMoviesSectionFunctionalityTestNG">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:testNGTestPack.VerifyMoviesSectionFunctionalityTestNG@74f0ea28]" started-at="2023-09-27T17:30:49 IST" name="launchBrowser" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1695816049405" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Can inject only one of <ITestContext, XmlTest> into a @BeforeTest annotated launchBrowser.
+For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Can inject only one of <ITestContext, XmlTest> into a @BeforeTest annotated launchBrowser.
+For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection
+at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:439)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:353)
+at org.testng.internal.Parameters.createParameters(Parameters.java:708)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="createPomObject()[pri:0, instance:testNGTestPack.VerifyMoviesSectionFunctionalityTestNG@74f0ea28]" started-at="2023-09-27T17:30:49 IST" name="createPomObject" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1695816049531" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPomObject -->
+        <test-method is-config="true" signature="openTheApplication()[pri:0, instance:testNGTestPack.VerifyMoviesSectionFunctionalityTestNG@74f0ea28]" started-at="2023-09-27T17:30:49 IST" name="openTheApplication" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1695816049535" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openTheApplication -->
+        <test-method signature="verifyPopularMoviesSection()[pri:0, instance:testNGTestPack.VerifyMoviesSectionFunctionalityTestNG@74f0ea28]" started-at="2023-09-27T17:30:49 IST" name="verifyPopularMoviesSection" finished-at="2023-09-27T17:30:49 IST" duration-ms="0" status="SKIP">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Can inject only one of <ITestContext, XmlTest> into a @BeforeTest annotated launchBrowser.
+For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Can inject only one of <ITestContext, XmlTest> into a @BeforeTest annotated launchBrowser.
+For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection
+at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:439)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:353)
+at org.testng.internal.Parameters.createParameters(Parameters.java:708)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPopularMoviesSection -->
+        <test-method is-config="true" signature="clearObject()[pri:0, instance:testNGTestPack.VerifyMoviesSectionFunctionalityTestNG@74f0ea28]" started-at="2023-09-27T17:30:49 IST" name="clearObject" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1695816049559" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearObject -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testNGTestPack.VerifyMoviesSectionFunctionalityTestNG@74f0ea28]" started-at="2023-09-27T17:30:49 IST" name="closeBrowser" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1695816049561" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testNGTestPack.VerifyMoviesSectionFunctionalityTestNG -->
+    </test> <!-- ChromeTest -->
+    <test started-at="2023-09-27T17:30:49 IST" name="EdgeTest" finished-at="2023-09-27T17:30:49 IST" duration-ms="67">
+      <class name="testNGTestPack.VerifySportsFunctionality">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:testNGTestPack.VerifySportsFunctionality@51399530]" started-at="2023-09-27T17:30:49 IST" name="launchBrowser" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1695816049711" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="createPOMPObject()[pri:0, instance:testNGTestPack.VerifySportsFunctionality@51399530]" started-at="2023-09-27T17:30:49 IST" name="createPOMPObject" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1695816049715" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPOMPObject -->
+        <test-method is-config="true" signature="openSportsSection()[pri:0, instance:testNGTestPack.VerifySportsFunctionality@51399530]" started-at="2023-09-27T17:30:49 IST" name="openSportsSection" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1695816049721" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openSportsSection -->
+        <test-method signature="verifyCricketFunctionality()[pri:1, instance:testNGTestPack.VerifySportsFunctionality@51399530]" started-at="2023-09-27T17:30:49 IST" name="verifyCricketFunctionality" finished-at="2023-09-27T17:30:49 IST" duration-ms="0" status="SKIP">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Can inject only one of <ITestContext, XmlTest> into a @BeforeTest annotated launchBrowser.
+For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Can inject only one of <ITestContext, XmlTest> into a @BeforeTest annotated launchBrowser.
+For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection
+at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:439)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:353)
+at org.testng.internal.Parameters.createParameters(Parameters.java:708)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCricketFunctionality -->
+        <test-method is-config="true" signature="openSportsSection()[pri:0, instance:testNGTestPack.VerifySportsFunctionality@51399530]" started-at="2023-09-27T17:30:49 IST" name="openSportsSection" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1695816049730" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openSportsSection -->
+        <test-method signature="verifyFootBallFunctionality()[pri:2, instance:testNGTestPack.VerifySportsFunctionality@51399530]" started-at="2023-09-27T17:30:49 IST" name="verifyFootBallFunctionality" finished-at="2023-09-27T17:30:49 IST" duration-ms="0" status="SKIP">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Can inject only one of <ITestContext, XmlTest> into a @BeforeTest annotated launchBrowser.
+For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Can inject only one of <ITestContext, XmlTest> into a @BeforeTest annotated launchBrowser.
+For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection
+at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:439)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:353)
+at org.testng.internal.Parameters.createParameters(Parameters.java:708)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFootBallFunctionality -->
+        <test-method is-config="true" signature="openSportsSection()[pri:0, instance:testNGTestPack.VerifySportsFunctionality@51399530]" started-at="2023-09-27T17:30:49 IST" name="openSportsSection" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1695816049738" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openSportsSection -->
+        <test-method signature="verifyAsiaCupFunctonality()[pri:3, instance:testNGTestPack.VerifySportsFunctionality@51399530]" started-at="2023-09-27T17:30:49 IST" name="verifyAsiaCupFunctonality" finished-at="2023-09-27T17:30:49 IST" duration-ms="0" status="SKIP">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Can inject only one of <ITestContext, XmlTest> into a @BeforeTest annotated launchBrowser.
+For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Can inject only one of <ITestContext, XmlTest> into a @BeforeTest annotated launchBrowser.
+For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection
+at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:439)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:353)
+at org.testng.internal.Parameters.createParameters(Parameters.java:708)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAsiaCupFunctonality -->
+        <test-method is-config="true" signature="clearObject()[pri:0, instance:testNGTestPack.VerifySportsFunctionality@51399530]" started-at="2023-09-27T17:30:49 IST" name="clearObject" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1695816049744" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearObject -->
+        <test-method is-config="true" signature="closeTheBrowser()[pri:0, instance:testNGTestPack.VerifySportsFunctionality@51399530]" started-at="2023-09-27T17:30:49 IST" name="closeTheBrowser" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1695816049766" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTheBrowser -->
+      </class> <!-- testNGTestPack.VerifySportsFunctionality -->
+      <class name="testNGTestPack.VerifyMoviesSectionFunctionalityTestNG">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:testNGTestPack.VerifyMoviesSectionFunctionalityTestNG@6b2ea799]" started-at="2023-09-27T17:30:49 IST" name="launchBrowser" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1695816049706" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Can inject only one of <ITestContext, XmlTest> into a @BeforeTest annotated launchBrowser.
+For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Can inject only one of <ITestContext, XmlTest> into a @BeforeTest annotated launchBrowser.
+For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection
+at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:439)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:353)
+at org.testng.internal.Parameters.createParameters(Parameters.java:708)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="createPomObject()[pri:0, instance:testNGTestPack.VerifyMoviesSectionFunctionalityTestNG@6b2ea799]" started-at="2023-09-27T17:30:49 IST" name="createPomObject" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1695816049748" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPomObject -->
+        <test-method is-config="true" signature="openTheApplication()[pri:0, instance:testNGTestPack.VerifyMoviesSectionFunctionalityTestNG@6b2ea799]" started-at="2023-09-27T17:30:49 IST" name="openTheApplication" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1695816049751" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openTheApplication -->
+        <test-method signature="verifyPopularMoviesSection()[pri:0, instance:testNGTestPack.VerifyMoviesSectionFunctionalityTestNG@6b2ea799]" started-at="2023-09-27T17:30:49 IST" name="verifyPopularMoviesSection" finished-at="2023-09-27T17:30:49 IST" duration-ms="0" status="SKIP">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Can inject only one of <ITestContext, XmlTest> into a @BeforeTest annotated launchBrowser.
+For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Can inject only one of <ITestContext, XmlTest> into a @BeforeTest annotated launchBrowser.
+For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection
+at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:439)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:353)
+at org.testng.internal.Parameters.createParameters(Parameters.java:708)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+at org.testng.TestRunner.run(TestRunner.java:589)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPopularMoviesSection -->
+        <test-method is-config="true" signature="clearObject()[pri:0, instance:testNGTestPack.VerifyMoviesSectionFunctionalityTestNG@6b2ea799]" started-at="2023-09-27T17:30:49 IST" name="clearObject" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1695816049757" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearObject -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testNGTestPack.VerifyMoviesSectionFunctionalityTestNG@6b2ea799]" started-at="2023-09-27T17:30:49 IST" name="closeBrowser" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1695816049763" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testNGTestPack.VerifyMoviesSectionFunctionalityTestNG -->
+    </test> <!-- EdgeTest -->
+  </suite> <!-- Suite -->
+</testng-results>
